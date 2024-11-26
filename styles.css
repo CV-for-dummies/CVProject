@@ -13,12 +13,15 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    &.header{
+        background-color:#72a6c9;
+    }
 }
+
 
 .profile-header {
     display: flex;
     align-items: center;
-    border-bottom: 2px solid #ddd;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
@@ -57,6 +60,14 @@ body {
     color: #3498db;
 }
 
+.section-separator {
+    width: 50%;
+    height: 1px;
+    background-color: #638fad;
+    margin-inline-start: unset;
+    margin-inline-end: unset;
+}
+
 .skills-section, .experience-section, .education-section {
     margin-bottom: 20px;
 }
@@ -65,10 +76,11 @@ h2 {
     font-size: 20px;
     border-bottom: 2px solid #3498db;
     padding-bottom: 5px;
-    color: #3498db;
+    color: #2c546d;
     display: flex;
     align-items: center;
 }
+
 
 h2 i {
     margin-right: 10px;
@@ -92,7 +104,7 @@ h2 i {
 
 .progress {
     height: 10px;
-    background-color: #3498db;
+    background-color: #72a6c9;
     border-radius: 20px;
 }
 
@@ -114,3 +126,4 @@ h2 i {
     margin: 5px 0;
     font-size: 14px;
 }
+
